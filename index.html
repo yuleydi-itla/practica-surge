@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #0f0f0f;
+      color: white;
+    }
+
+    header {
+      background: #1a1a2e;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      color: #e94560;
+      font-size: 24px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 16px;
+    }
+
+    nav a:hover {
+      color: #e94560;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+      background: linear-gradient(135deg, #1a1a2e, #16213e);
+    }
+
+    .hero h2 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .hero h2 span {
+      color: #e94560;
+    }
+
+    .hero p {
+      font-size: 18px;
+      color: #aaa;
+      margin-bottom: 30px;
+    }
+
+    .hero button {
+      background: #e94560;
+      color: white;
+      border: none;
+      padding: 12px 30px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .hero button:hover {
+      background: #c73652;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 60px 20px;
+      flex-wrap: wrap;
+      background: #111;
+    }
+
+    .card {
+      background: #1a1a2e;
+      border-radius: 10px;
+      padding: 30px;
+      width: 250px;
+      text-align: center;
+      border: 1px solid #e94560;
+    }
+
+    .card h3 {
+      color: #e94560;
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
+
+    .card p {
+      color: #aaa;
+      font-size: 14px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1a1a2e;
+      color: #aaa;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Mi Portafolio</h1>
+    <nav>
+      <a href="#">Inicio</a>
+      <a href="#">Proyectos</a>
+      <a href="#">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Hola, soy <span>Desarrolladora Web</span></h2>
+    <p>Estudiante de tecnología aprendiendo CI/CD con GitHub Actions y Surge.sh</p>
+    <button>Ver mis proyectos</button>
+  </section>
+
+  <section class="cards">
+    <div class="card">
+      <h3>HTML & CSS</h3>
+      <p>Creacion de paginas web modernas y responsivas.</p>
+    </div>
+    <div class="card">
+      <h3>GitHub Actions</h3>
+      <p>Automatizacion de despliegues con integracion continua.</p>
+    </div>
+    <div class="card">
+      <h3>Surge.sh</h3>
+      <p>Publicacion rapida de sitios web estaticos en la nube.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Mi Portafolio — Desplegado automaticamente con CI/CD</p>
+  </footer>
+
+</body>
+</html>
